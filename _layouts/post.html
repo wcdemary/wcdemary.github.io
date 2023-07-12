@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/wcdemary.css">
+</head>
+
+<body>
+    <header>
+        <h1><strong><a href="/">William C. DeMary</a></strong> | <em>My thoughts on philosophy, religion, and society</em></h1>
+        <nav>
+            <ul>
+                <li><a href="/publications.html">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>{{ page.title }}</h1>
+        <p class="date"><strong>{{ page.date | date_to_long_string }}</strong></p>
+        {{ content }}
+    </article>
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 William C. DeMary. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
