@@ -13,3 +13,4 @@ layout: page
 - "[A History and Analysis of Headship Theology, Part 2](https://spectrummagazine.org/views/2023/history-and-analysis-headship-theology-part-2)" (January 29, 2023)
 - "[Immanence and Ethics, Part 1](https://spectrummagazine.org/views/2023/immanence-and-ethics-part-1-whats-spiritualism-got-do-it)" (June 18, 2023)
 - "[Immanence and Ethics, Part 2](https://spectrummagazine.org/arts-essays/2023/immanence-and-ethics-part-2-reconciling-moral-freedom-and-adventist-holism)" (June 25, 2023)
+- "[Moral Autonomy, Divine Command, and the Intrinsic Value of Human Existence](https://spectrummagazine.org/arts-essays/2023/moral-autonomy-divine-command-and-intrinsic-value-human-existence)" (July 17, 2023)
