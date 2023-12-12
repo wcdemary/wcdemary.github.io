@@ -9,25 +9,25 @@
 
 <body>
     <header>
-        <h1><strong><a href="/">William C. DeMary</a></strong> | <em>My thoughts on philosophy, religion, and society</em></h1>
-        <nav>
-            <ul>
-                <li><a href="/publications">Publications</a></li>
-            </ul>
-        </nav>
+        <table>
+            <tbody>
+                <tr>
+                    <td><h1><a href="/">William C. DeMary</a></h1></td>
+                    <td><p>Thoughts on philosophy, religion, and society</p></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
     </header>
+
     <main>
-        {% for post in site.posts %}
-            <div class="post">
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <p><strong>{{ post.date | date_to_long_string }}</strong></p> 
-                {{ post.excerpt }}
-            </div>
-        {% endfor %}
+        <h1>Publications</h1>
+        {{ content }}
     </main>
+
     <footer>
         <div class="copyright">
-            <p>Copyright &copy; 2023 William C. DeMary. All rights reserved.</p>
+            <p>Copyright &copy; 2023&ndash;2024 William C. DeMary. All rights reserved.</p>
         </div>
     </footer>
 </body>

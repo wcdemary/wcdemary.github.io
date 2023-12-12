@@ -1,85 +1,111 @@
 ---
 ---
     
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap')
 
 html, body
     margin: 0 0 0 0
+    padding: 0 0 0 0
+    font-family: Roboto, sans-serif
 
 header
-    h1
+    background-image: linear-gradient(to right, #fdffcc, #ccffdc, #cdecff, #ffc0c7)
+
+    table
+        margin-left: 15pt
         float: left
-        font-family: 'Crimson Pro', serif
-        font-size: 18pt
-        font-weight: normal
 
-        margin-top: 10pt
-        margin-left: 10pt
+        td
+            vertical-align: middle
+            padding-right: 15pt
 
-        a
-            color: black
-            text-decoration: none
-        a:hover
-            text-decoration: underline
-    nav
-        margin-right: 10pt
-        ul
-            float: right
-            list-style-type: none
-            li
-                font-family: 'Crimson Pro', serif
-                font-size: 14pt
+            h1
+                font-family: 'Bebas Neue', sans-serif
+                font-size: 30pt
+                font-weight: normal
+
                 a
-                    color: #333
+                    color: black
                     text-decoration: none
+
                 a:hover
                     text-decoration: underline
+                    text-underline-offset: 0.3em
+
+            p
+                font-family: 'Bebas Neue', sans-serif
+                font-size: 15pt
+                font-weight: normal
+
+    nav
+        margin-top: 22pt
+        float: right
+        
+        ul
+            list-style-type: none
+
+            li
+                float: left
+                padding-right: 10pt
+
+                p
+                    font-family: 'Roboto', sans-serif
+                    font-size: 14pt
+                    font-weight: normal
+
+    hr
+        clear: both
 
 main, article
     clear: both
-    margin-left: 10%
-    margin-right: 10%
-    padding-top: 20pt
 
-    h1, h2, h3, p, li, blockquote
-        font-family: 'Crimson Pro', serif
-        width: 80%
+    margin-left: 5%
+    margin-right: 5%
+    padding-top: 5pt
+    width: 90%
 
-        a
-            color: #333333
-            text-decoration: none
-            
-        a:hover
-            text-decoration: underline
-    
+    font-family: Crimson Pro, serif
+    font-size: 14pt
+    font-weight: normal
+
     h1
-        font-size: 30pt
+        margin-bottom: 0pt
+        font-size: 25pt
         font-weight: bold
-        margin-bottom: 0
 
-    .date
-        margin-top: 5pt
-        margin-bottom: 25pt
+    h2
+        font-size: 20pt
+        font-weight: bold
 
-    p, li, blockquote
-        font-size: 14pt
+    h3
+        font-size: 18pt
+        font-weight: bold
+
+    p, li
+        line-height: 1.4em
+
+        .date
+            margin-top: 5pt
+            margin-bottom: 15pt
+        
         a
             text-decoration: underline
+            text-underline-offset: 0.3em
 
-    li
-        padding-left: 10pt
-        padding-bottom: 10pt
+    a
+        color: black
+        text-decoration: none
 
-    .post
-        padding-top: 15pt
+    a:hover
+        text-decoration: underline
+        text-underline-offset: 0.3em
 
 footer
-    margin-left: 10pt
-    padding-top: 20pt
+    clear: both
+    margin-top: 25pt
+    padding: 10pt 20pt 10pt 20pt
+    background-color: #dfe6e9
 
-    font-family: 'Crimson Pro', serif
-    font-size: 10pt
-
-    div.copyright
-        width: 100%
+    p
         text-align: center
+        font-size: 10pt
