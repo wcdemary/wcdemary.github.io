@@ -1,6 +1,6 @@
 ---
 layout: home
-title: William C. DeMary | My thoughts on philosophy, religion, and society
+title: William C. DeMary | Thoughts on philosophy, religion, and social issues
 ---
 
 ### *Spectrum*
