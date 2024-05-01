@@ -3,6 +3,10 @@ layout: home
 title: William C. DeMary | Thoughts on philosophy, religion, and social issues
 ---
 
+### *Adventist Today*
+
+- "[How Our Adventist Pioneers Got the Trinity So Wrong](https://atoday.org/how-our-adventist-pioneers-got-the-trinity-wrong/)" (April 31, 2024)
+
 ### *Spectrum*
 
 - "[Moral Autonomy, Divine Command, and the Intrinsic Value of Human Existence](https://spectrummagazine.org/news/moral-autonomy-divine-command-and-intrinsic-value-human-existence/)" (July 17, 2023)
