@@ -5,7 +5,9 @@ title: William C. DeMary | Thoughts on philosophy, religion, and social issues
 
 ### *Adventist Today*
 
-- "[How Our Adventist Pioneers Got the Trinity So Wrong](https://atoday.org/how-our-adventist-pioneers-got-the-trinity-wrong/)" (April 31, 2024)
+- "[How Our Adventist Pioneers Got the Trinity So Wrong](https://atoday.org/how-our-adventist-pioneers-got-the-trinity-wrong/)" (April 30, 2024)
+
+  *For an extended version of this article, see "[What's Missing from the Adventist Trinity Doctrines?]({% post_url 2024-04-30-whats-missing-adventist-trinity-doctrines %})"*
 
 ### *Spectrum*
 
