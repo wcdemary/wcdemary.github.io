@@ -9,26 +9,37 @@
 
 <body>
     <header>
-        <table>
-            <tbody>
-                <tr>
-                    <td><h1><a href="/">William C. DeMary</a></h1></td>
-                    <td><p>Thoughts on philosophy, religion, and social issues</p></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
+        <div class="col-12">
+            <h1><a href="/">William C. DeMary</a></h1>
+            <p>Thoughts on philosophy, religion, and social issues</p>
+        </div>
     </header>
 
     <main>
-        <h1>Publications</h1>
+        {% for article in site.articles reversed %}
+        <div class="col-4">
+            <div>
+                <h2><a href="{{ article.parts[0].url }}">{{ article.title }}</a></h2>
+                {% if article.parts.size == 1 %}
+                    <p><em>{{ article.journal }}</em> &middot; {{ article.parts[0].date | date_to_long_string }} &middot; <a href="{{ article.parts[0].url }}">View</a></p>
+                {% else %}
+                    <p><em>{{ article.journal }}</em> &middot; {{ article.parts.size }}-part series:</p>
+                    <ul>
+                        {% for part in article.parts %}
+                        <li><a href="{{ part.url }}">Part {{ forloop.index }}</a> &middot; {{ part.date | date_to_long_string }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <hr/>
+                <p>{{ article.content | markdownify }}</p>
+            </div>
+        </div>
+        {% endfor %}
         {{ content }}
     </main>
 
     <footer>
-        <div class="copyright">
-            <p>Copyright &copy; 2023&ndash;{{ site.time | date: '%Y' }} William C. DeMary. All rights reserved.</p>
-        </div>
+        <p>Copyright &copy; 2023&ndash;{{ site.time | date: '%Y' }} William C. DeMary. All rights reserved.</p>
     </footer>
 </body>
 

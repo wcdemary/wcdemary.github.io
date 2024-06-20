@@ -9,24 +9,19 @@
 
 <body>
     <header>
-        <table>
-            <tbody>
-                <tr>
-                    <td><h1><a href="/">William C. DeMary</a></h1></td>
-                    <td><p>Thoughts on philosophy, religion, and social issues</p></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
+        <div class="col-12">
+            <h1><a href="/">William C. DeMary</a></h1>
+            <p>Thoughts on philosophy, religion, and social issues</p>
+        </div>
     </header>
+
     <article>
         <h1>{{ page.title }}</h1>
         {{ content }}
     </article>
+
     <footer>
-        <div class="copyright">
-            <p>Copyright &copy; 2023&ndash;{{ site.time | date: '%Y' }} William C. DeMary. All rights reserved.</p>
-        </div>
+        <p>Copyright &copy; 2023&ndash;{{ site.time | date: '%Y' }} William C. DeMary. All rights reserved.</p>
     </footer>
 </body>
 
