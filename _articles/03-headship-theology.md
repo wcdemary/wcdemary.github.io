@@ -5,5 +5,5 @@ parts:
 - date: 2023-01-21
   url: https://spectrummagazine.org/views/history-and-analysis-headship-theology-part-1/
 - date: 2023-01-29
-  url: https://spectrummagazine.org/culture/faith-salvation-and-adventist-identity-pt-2/
+  url: https://spectrummagazine.org/views/history-and-analysis-headship-theology-part-2/
 ---

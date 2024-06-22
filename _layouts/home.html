@@ -19,7 +19,7 @@
         {% for article in site.articles reversed %}
         <div class="col-4">
             <div>
-                <h2><a href="{{ article.parts[0].url }}">{{ article.title }}</a></h2>
+                <h2><a href="{{ article.parts[0].url }}">{{ article.title | markdownify }}</a></h2>
                 {% if article.parts.size == 1 %}
                     <p><em>{{ article.journal }}</em> &middot; {{ article.parts[0].date | date_to_long_string }} &middot; <a href="{{ article.parts[0].url }}">View</a></p>
                 {% else %}
