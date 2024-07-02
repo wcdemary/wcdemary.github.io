@@ -21,9 +21,9 @@
             <div>
                 <h2><a href="{{ article.parts[0].url }}">{{ article.title | markdownify }}</a></h2>
                 {% if article.parts.size == 1 %}
-                    <p><em>{{ article.journal }}</em> &middot; {{ article.parts[0].date | date_to_long_string }} &middot; <a href="{{ article.parts[0].url }}">View</a></p>
+                    <p><em class="journal">{{ article.journal | markdownify | remove: "<p>" | remove: "</p>" }}</em> &middot; {{ article.parts[0].date | date_to_long_string }} &middot; <a href="{{ article.parts[0].url }}">View</a></p>
                 {% else %}
-                    <p><em>{{ article.journal }}</em> &middot; {{ article.parts.size }}-part series:</p>
+                    <p><em class="journal">{{ article.journal | markdownify | remove: "<p>" | remove: "</p>" }}</em> &middot; {{ article.parts.size }}-part series:</p>
                     <ul>
                         {% for part in article.parts %}
                         <li><a href="{{ part.url }}">Part {{ forloop.index }}</a> &middot; {{ part.date | date_to_long_string }}</li>
