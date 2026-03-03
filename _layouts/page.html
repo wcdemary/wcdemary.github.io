@@ -3,23 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>William C. DeMary | {{ page.title }}</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/wcdemary.css">
 </head>
 
 <body>
     <header>
-        <div class="col-12">
-            <h1><a href="/">William C. DeMary</a></h1>
-            <p>Thoughts on philosophy, religion, and social issues</p>
-        </div>
+        <h1><a href="/">William C. DeMary</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/publications.html">Publications</a></li>
+            </ul>
+        </nav>
     </header>
 
     <article>
-        <div class="col-1"></div>
-        <div class="col-10">
-            {{ content }}
-        </div>
+        {{ content }}
     </article>
 
     <footer>

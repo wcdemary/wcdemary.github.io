@@ -3,39 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>William C. DeMary</title>
     <link rel="stylesheet" href="/css/wcdemary.css">
 </head>
 
 <body>
     <header>
-        <div class="col-12">
-            <h1><a href="/">William C. DeMary</a></h1>
-            <p>Thoughts on philosophy, religion, and social issues</p>
-        </div>
+        <h1><a href="/">William C. DeMary</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/publications.html">Publications</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        {% for article in site.articles reversed %}
-        <div class="col-4">
-            <div>
-                <h2><a href="{{ article.parts[0].url }}">{{ article.title | markdownify }}</a></h2>
-                {% if article.parts.size == 1 %}
-                    <p><em class="journal">{{ article.journal | markdownify | remove: "<p>" | remove: "</p>" }}</em> &middot; {{ article.parts[0].date | date_to_long_string }} &middot; <a href="{{ article.parts[0].url }}">View</a></p>
-                {% else %}
-                    <p><em class="journal">{{ article.journal | markdownify | remove: "<p>" | remove: "</p>" }}</em> &middot; {{ article.parts.size }}-part series:</p>
-                    <ul>
-                        {% for part in article.parts %}
-                        <li><a href="{{ part.url }}">Part {{ forloop.index }}</a> &middot; {{ part.date | date_to_long_string }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-                <hr/>
-                <p>{{ article.content | markdownify }}</p>
-            </div>
-        </div>
-        {% endfor %}
-        {{ content }}
+        <ul>
+            {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
     </main>
 
     <footer>
