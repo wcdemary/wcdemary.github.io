@@ -19,18 +19,19 @@
     </header>
 
     <main>
+        {{ content }}
         <ul>
         {% for publication in site.publications reversed %}
             {% if publication.parts.size == 1 %}
                 <li>
-                    <a href="{{ publication.parts[0].url }}">{{ publication.title | markdownify | remove: "</p>" }}</a><br/>
-                    (<em class="journal">{{ publication.journal }}</em>, {{ publication.parts[0].date | date_to_long_string }}</a>)
+                    <a href="{{ publication.parts[0].url }}">{{ publication.title | markdownify | remove: "</p>" }}</a>
+                    (<em class="journal">{{ publication.journal }}</em></a>)
                 </li>
             {% else %}
                 {% for part in publication.parts %}
                 <li>
-                    <a href="{{ part.url }}">{{ publication.title | markdownify | remove: "</p>" }}, Pt. {{ forloop.index }}</a><br/>
-                    (<em class="journal">{{ publication.journal }}</em>, {{ part.date | date_to_long_string }}</a>)
+                    <a href="{{ part.url }}">{{ publication.title | markdownify | remove: "</p>" }} Pt. {{ forloop.index }}</a>
+                    (<em class="journal">{{ publication.journal }}</em></a>)
                 </li>
                 {% endfor %}
             {% endif %}
