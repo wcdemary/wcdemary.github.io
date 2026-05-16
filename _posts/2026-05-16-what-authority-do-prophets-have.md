@@ -670,7 +670,7 @@ necessary.
 [^3]: Nadler (1999), 155--63, 182--84. See also Stephen Nadler, "Who
     Tried to Kill Spinoza?" *Jewish Review of Books* (winter 2019),
     available online at
-    [[https://jewishreviewofbooks.com/articles/4991/who-tried-to-kill-spinoza/#]{.underline}](https://jewishreviewofbooks.com/articles/4991/who-tried-to-kill-spinoza/#).
+    [https://jewishreviewofbooks.com/articles/4991/who-tried-to-kill-spinoza/#](https://jewishreviewofbooks.com/articles/4991/who-tried-to-kill-spinoza/#).
 
 [^4]: Nadler (1999), 204--12, 225.
 
@@ -714,8 +714,8 @@ necessary.
     Spinoza outlines in the introduction to his *Principles of Cartesian
     Philosophy* and follows, to some extent, in his *Ethics*. In the
     latter work, Spinoza is concerned to show that the ontological
-    substance of nature has the same properties, such as existence,
-    uniqueness, causality, and so on, that are traditionally ascribed to
+    substance of nature has the same properties---such as existence,
+    uniqueness, and causality---that are traditionally ascribed to
     God, and that he does so by appealing to our immediate impression
     that reality exists. Nevertheless, he also presents an *a priori*
     ontological argument for the existence of substance that is based on
@@ -787,7 +787,7 @@ necessary.
     Richard McKeon (ed.), *The Basic Works of Aristotle* (New York: The
     Modern Library, 2001 [1941]), 100a--b.
 
-[^45]: I myself have criticized White for her plagiarism in a previous
-    article, where I mentioned that White's chapter on spiritualism in
+[^45]: I myself have criticized White for her plagiarism in [a previous
+    article](https://spectrummagazine.org/culture/immanence-and-ethics-part-1-whats-spiritualism-got-do-it/), where I mentioned that White's chapter on spiritualism in
     *The Great Controversy* borrowed extensively from J.H. Waggoner's
     book on spiritualism without attribution.
