@@ -20,6 +20,8 @@ In this article:
 
 <!-- /code_chunk_output -->
 
+---
+
 ## The Life and Times of Benedict de Spinoza
 
 Benedict de Spinoza was born in 1632 as Baruch Espinosa to a Sephardic
