@@ -118,7 +118,7 @@ rest of the *Treatise*, is to determine the nature of the assistance
 that God provided the Jewish people and to derive principles of just
 governance from the model of the ancient Hebrew state, especially one
 that preserves the respective domains of philosophy and theology, which
-I introduced in [the previous part](https://wcdemary.com/2026/05/16/what-authority-do-prophets-have.html) of this series.
+I introduced in [the previous part]({% post_url 2026-05-16-what-authority-do-prophets-have %}) of this series.
 
 Spinoza begins this argument by stating, "All things which we honestly
 desire may be reduced to three principal categories: (i) to understand
