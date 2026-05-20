@@ -14,3 +14,7 @@ Below, you can find a list of the essays I have published on this site. You can 
 - [**Part 3:** Is the Decalogue a Moral Law?]({% post_url 2026-05-18-is-the-decalogue-a-moral-law %})
 - [**Part 4:** Is the Christian Faith Rationally Defensible?]({% post_url 2026-05-19-is-the-christian-faith-rationally-defensible %})
 - [**Part 5:** Does the State Have a Right Over Religion?]({% post_url 2026-05-20-does-the-state-have-a-right-over-religion %})
+
+## Critique of Adventist Hermeneutics
+
+- [Why Adventist Church Leaders Say the Bible Is "Historically Constituted"]({% post_url 2026-05-20-why-adventist-church-leaders-say-the-bible-is-historically-constituted %})
