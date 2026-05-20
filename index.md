@@ -13,3 +13,4 @@ Below, you can find a list of the essays I have published on this site. You can 
 - [**Part 2:** What Is the Church's Vocation?]({% post_url 2026-05-17-what-is-the-churchs-vocation %})
 - [**Part 3:** Is the Decalogue a Moral Law?]({% post_url 2026-05-18-is-the-decalogue-a-moral-law %})
 - [**Part 4:** Is the Christian Faith Rationally Defensible?]({% post_url 2026-05-19-is-the-christian-faith-rationally-defensible %})
+- [**Part 5:** Does the State Have a Right Over Religion?]({% post_url 2026-05-20-does-the-state-have-a-right-over-religion %})
